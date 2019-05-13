@@ -1,0 +1,9 @@
+NAME: Shivam Goyal 2017CS10377
+      Meenal Meena 2017CS10351
+      
+We have completed and submitted lab3 on time.
+
+First the input has been taken from a .txt file containing many expressions(each line having a single expression) to be evaluated.Each expression is then read at a time using "swi 0x6a" and then sent to the function made during lab2 using the expression "bl L3" written in file lab3.s . Now this evaluated result has been stored in r0 which is then converted from integer to ascii using "itoa" and then printed using "swi 0x02". We have displayed our each computed value of expression on stdout each in a new line.
+
+Few string on which it is tested is included in our kile.txt file uploaded with other files.
+
